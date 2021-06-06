@@ -25,6 +25,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'polls',
     'rest_framework',
     'corsheaders',
     'alerts.apps.AlertsConfig',
