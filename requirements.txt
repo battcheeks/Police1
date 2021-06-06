@@ -5,7 +5,7 @@ cycler==0.10.0
 decorator==4.4.2
 Django==3.1.5
 django-cors-headers==3.7.0
-git+https://$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@github.com/[battcheeks]/[multiselectfield].git
+git+https://$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@github.com/battcheeks/multiselectfield.git
 django-phonenumber-field==5.0.0
 djangorestframework==3.12.2
 gunicorn==20.0.4
