@@ -5,7 +5,7 @@ from multiselectfield import MultiSelectField
 
 
 class CriminalDataAPI(models.Model):
-    name = models.CharField(max_length=100, blank=False, default='')
+    name = models.CharField(max_length=100, blank=True, default='')
     dob = models.DateField(blank=True,null=True)
     known_crimes = models.TextField(blank=True)
     REGISTER_CHOICES = (('Y', 'Yes'), ('N', 'No'),)
@@ -15,7 +15,7 @@ class CriminalDataAPI(models.Model):
     custody = models.CharField(max_length=1, choices=CUSTODY_CHOICES)
     latest_sightings_time = models.TimeField(blank=True,null=True)
     latest_sightings_date = models.DateField(blank=True,null=True)
-    latest_sightings_place = models.CharField(max_length=100, blank=True, null=True,default='')
+    latest_sightings_place = models.CharField(max_length=100, blank=True, null=True)
 
 # class Meta:
 #     ordering = ['appointment_date']
