@@ -8,7 +8,7 @@ class AlertAPI(models.Model):
     date = models.DateField()
     time = models.TimeField()
     subject = models.TextField()
-    link = models.URLField(blank=True)
+    link = models.URLField(blank=True, null=True)
 
 
 class Meta:
